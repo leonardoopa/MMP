@@ -32,7 +32,7 @@ const Contacto = () => {
     // Simulación de envío de formulario
     toast({
       title: "Mensaje enviado",
-      description: "Gracias por contactar con MMP Casa de Fiestas. Te responderemos pronto.",
+      description: "Gracias por contactar con MMP Party Futbol Barcelona. Te responderemos pronto.",
     });
     
     // Resetear formulario

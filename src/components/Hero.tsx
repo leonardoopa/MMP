@@ -24,16 +24,17 @@ const Hero = () => {
           <div className="space-y-6">
             <div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-mmp-blue mb-4">
-                MMP <span className="text-black">Casa de Fiestas</span>
+                MMP <span className="text-black">Party Futbol Barcelona</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600">
-                La mejor experiencia para tus celebraciones en Barcelona
+                Celebra el cumpleaños de tu hijo por 0 euros y bebe a precios de fábrica ⚽ en el mejor campo de fútbol de Barcelona.
               </p>
             </div>
             
             <p className="text-gray-600 text-lg">
-              Celebra momentos inolvidables en nuestro espacio diseñado para 
-              alegría y diversión. Ofrecemos todo lo necesario para un evento perfecto.
+            Reserva ara el teu aniversari!
+            Promoció per temps limitat!
+            Porta els teus amics i vine a divertir-te
             </p>
             
             <div className="flex items-center text-gray-700 space-x-1">
@@ -66,7 +67,7 @@ const Hero = () => {
           <div className="hidden md:block relative">
             <div className="absolute top-0 left-0 w-full h-full bg-mmp-blue rounded-full opacity-10 animate-pulse"></div>
             <img 
-              src="/images/MMP.jpg" 
+              src="/images/fotocapammp.jpg" 
               alt="Celebración de cumpleaños infantil" 
               className="rounded-3xl shadow-2xl relative z-10 animate-float"
             />

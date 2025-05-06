@@ -35,7 +35,7 @@ const Galeria = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-mmp-blue mb-4">Nuestra Galería</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Descubre los momentos mágicos que creamos en MMP Casa de Fiestas
+            Descubre los momentos mágicos que creamos en MMP Party Futbol Barcelona
           </p>
         </div>
 

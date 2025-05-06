@@ -7,11 +7,11 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">MMP Casa de Fiestas</h3>
+            <h3 className="text-2xl font-bold mb-4">MMP Party Futbol Barcelona</h3>
             <p className="mb-4">
               El mejor lugar para celebrar tus eventos en Barcelona. Creamos momentos mágicos y experiencias inolvidables para toda la familia.
             </p>
-            <p>© {new Date().getFullYear()} MMP Casa de Fiestas. Todos los derechos reservados.</p>
+            <p>© {new Date().getFullYear()} MMP Party Futbol Barcelona. Todos los derechos reservados.</p>
           </div>
           
           <div>
