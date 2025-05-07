@@ -150,7 +150,7 @@ const Contacto = () => {
                   <Phone className="h-6 w-6 text-mmp-green flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold text-white">Teléfono</h4>
-                    <p className="text-gray-300">+34 93 123 45 67</p>
+                    <p className="text-gray-300">+34 688 64 69 95</p>
                   </div>
                 </div>
                 
@@ -158,7 +158,7 @@ const Contacto = () => {
                   <Mail className="h-6 w-6 text-mmp-green flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold text-white">Email</h4>
-                    <p className="text-gray-300">info@mmpcasadefiestas.com</p>
+                    <p className="text-gray-300">mmppartyfutbol@gmail.com</p>
                   </div>
                 </div>
                 
@@ -175,8 +175,8 @@ const Contacto = () => {
                   <div>
                     <h4 className="font-semibold text-white">Horario</h4>
                     <p className="text-gray-300">
-                      Lunes a Viernes: 10:00 - 20:00<br />
-                      Sábados y Domingos: 10:00 - 22:00
+                      Lunes a Viernes: 09:00 - 20:00<br />
+                      Sábados y Domingos: 09:00 - 00:00
                     </p>
                   </div>
                 </div>

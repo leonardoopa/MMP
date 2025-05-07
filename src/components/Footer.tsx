@@ -7,11 +7,11 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4 text-mmp-green">MMP Casa de Fiestas</h3>
+            <h3 className="text-2xl font-bold mb-4 text-mmp-green">MMP Party Futbol Barcelona</h3>
             <p className="mb-4 text-gray-300">
               El mejor lugar para celebrar tus eventos en Barcelona. Creamos momentos mágicos y experiencias inolvidables para toda la familia.
             </p>
-            <p className="text-gray-400">© {new Date().getFullYear()} MMP Casa de Fiestas. Todos los derechos reservados.</p>
+            <p className="text-gray-400">© {new Date().getFullYear()} MMP Party Futbol Barcelona. Todos los derechos reservados.</p>
           </div>
           
           <div>
@@ -27,13 +27,13 @@ const Footer = () => {
           <div>
             <h4 className="text-xl font-semibold mb-4 text-mmp-green">Horario</h4>
             <ul className="space-y-2 text-gray-300">
-              <li>Lunes - Viernes: 10:00 - 20:00</li>
-              <li>Sábados: 10:00 - 22:00</li>
-              <li>Domingos: 10:00 - 22:00</li>
+              <li>Lunes - Viernes: 09:00 - 20:00</li>
+              <li>Sábados: 09:00 - 00:00</li>
+              <li>Domingos: 09:00 - 00:00</li>
             </ul>
             <div className="mt-4">
               <p className="font-semibold text-mmp-green">¿Tienes preguntas?</p>
-              <p className="text-gray-300">Llámanos: +34 93 123 45 67</p>
+              <p className="text-gray-300">Llámanos: +34 688 64 69 95</p>
             </div>
           </div>
         </div>

@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-2">
             <span className="font-montserrat font-bold text-3xl text-mmp-green">MMP</span>
-            <span className="hidden md:inline-block text-lg text-gray-400">Casa de Fiestas</span>
+            <span className="hidden md:inline-block text-lg text-gray-400">Party Futbol Barcelona</span>
           </div>
 
           {/* Desktop Navigation */}
