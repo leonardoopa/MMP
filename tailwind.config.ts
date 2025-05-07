@@ -54,9 +54,9 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				mmp: {
-					blue: '#1EAEDB',
-					lightBlue: '#33C3F0',
-					white: '#FFFFFF'
+					green: '#4CAF50',
+					white: '#FFFFFF',
+					black: '#000000'
 				}
 			},
 			borderRadius: {

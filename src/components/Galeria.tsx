@@ -28,14 +28,15 @@ const imagenes = [
   }
 ];
 
+
 const Galeria = () => {
   return (
-    <section id="galeria" className="py-16 md:py-24">
+    <section id="galeria" className="py-16 md:py-24 bg-gradient-to-b from-mmp-black to-mmp-black/90">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-mmp-blue mb-4">Nuestra Galería</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Descubre los momentos mágicos que creamos en MMP Party Futbol Barcelona
+          <h2 className="text-3xl md:text-4xl font-bold text-mmp-green mb-4">Nuestra Galería</h2>
+          <p className="text-xl text-white max-w-3xl mx-auto">
+            Descubre los momentos mágicos que creamos en MMP Party Futbol
           </p>
         </div>
 
@@ -50,7 +51,7 @@ const Galeria = () => {
                 alt={imagen.titulo} 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="absolute inset-0 bg-gradient-to-t from-mmp-black to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-0 left-0 p-6">
                   <h3 className="text-white text-xl font-semibold">{imagen.titulo}</h3>
                 </div>

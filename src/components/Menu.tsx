@@ -5,11 +5,11 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const Menu = () => {
   return (
-    <section id="menu" className="py-16 md:py-24 bg-gray-50">
+    <section id="menu" className="py-16 md:py-24 bg-mmp-black">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-mmp-blue mb-4">Nuestro Menú</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-mmp-green mb-4">Nuestro Menú</h2>
+          <p className="text-xl text-white max-w-3xl mx-auto">
             Deliciosas opciones para hacer de tu celebración un éxito
           </p>
         </div>
@@ -31,18 +31,18 @@ const Menu = () => {
           </div>
         </div>
 
-        <Card className="max-w-3xl mx-auto border-2 border-mmp-blue/10">
+        <Card className="max-w-3xl mx-auto border-2 border-mmp-green/30 bg-black">
           <CardContent className="p-8">
             <div className="text-center space-y-6">
               <div className="flex justify-center space-x-4">
-                <Pizza className="h-8 w-8 text-mmp-blue" />
-                <Sandwich className="h-8 w-8 text-mmp-blue" />
-                <CupSoda className="h-8 w-8 text-mmp-blue" />
+                <Pizza className="h-8 w-8 text-mmp-green" />
+                <Sandwich className="h-8 w-8 text-mmp-green" />
+                <CupSoda className="h-8 w-8 text-mmp-green" />
               </div>
-              <p className="text-xl text-gray-700">
+              <p className="text-xl text-white">
                 Elige el menú para tu fiesta. Tenemos kebab con patatas, refrescos, pizza, sándwiches y mucho más. ¡Adaptamos nuestras opciones según tus preferencias!
               </p>
-              <p className="font-medium text-mmp-blue">
+              <p className="font-medium text-mmp-green">
                 Consulta todas nuestras opciones de menú al reservar
               </p>
             </div>
